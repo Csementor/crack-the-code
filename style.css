@@ -1,0 +1,97 @@
+body{margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('backgroundgif.gif'); /* Path to your GIF image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+.banner {
+    background-image: url('crack the code.jpg'); /* Path to your banner image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; /* Adjust the height as needed */
+}
+h1{
+    text-align:center;
+}
+/* Styling for the output container */
+#output {
+padding: 20px;
+border: 2px solid #ccc;
+border-radius: 5px;
+background-color: #f9f9f9;
+margin-bottom: 20px;
+align:center;
+font-family: Arial, sans-serif;
+margin-left:40%;
+margin-right:20%;
+
+
+
+}
+
+.container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 10%;
+
+}
+
+
+/* Styling for the input fields */
+input[type="text"] {
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+margin-right: 5px;
+font-size: 16px;
+width:85px;
+text-align: left;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left:10em;
+    position:relative;
+}
+
+
+/* Styling for the crack and refresh button */
+.Btn {
+padding: 10px 30px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+transition: all 0.3s ease;
+box-shadow: 0px 5px 0px #3e8e41;
+margin:0 10px;
+//margin-left:30px;
+}
+
+
+/* Hover effect for the crack button */
+.Btn:hover {
+background-color: orange;
+box-shadow: 0px 3px 0px #357a38; /* Adjust shadow on hover for press effect */
+
+}
+lebel{
+    color:white;
+    padding:10px;
+    font-size:30px;
+}
+
